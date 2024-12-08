@@ -7,12 +7,15 @@ public class Girl extends Person {
 
     @Override
     public String talk(){
+
         return ("Hello! " + jump());
     }
     public String jump(){
+
         return("i am jumping");
     }
     public static double lifeSpan(){
+
         return (LifeSpan * ageFactor);
     }
 }
